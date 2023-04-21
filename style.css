@@ -1,0 +1,50 @@
+
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #98d818; ;
+    font-size: 16px; /* 1 rem = 10px */
+}
+
+.titulo {
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(193, 111, 11);
+    font-family: 'Creepster', cursive;
+}
+
+.titulo span {
+    font-size: 2rem;
+    color:rgb(247, 247, 247)
+}
+
+.contenedor {
+    width: 110rem;
+    margin: 2rem auto 0 auto;
+} 
+
+.nav-bg {
+    background-color: rgb(208, 198, 66);
+}     
+.navegacion-principal {
+    padding: 1rem;
+    display:flex;
+    justify-content: space-between;
+}    
+.navegacion-principal a{
+    color:rgb(253, 253, 253);
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem;
+}    
+
+.navegacion-principal a:hover{
+    background-color: rgb(132, 215, 93);;
+    color:rgb(116, 131, 109);
+}    
+
+.chainsaw {
+    background-image: url(../img/chainsaw.jpg);
+    background-size: cover;
+}
